@@ -1,0 +1,228 @@
+
+
+
+/*****************************************************
+Basic Body reset wrapping layout
+*****************************************************/
+
+body {
+	color: #000000;
+	margin:0 auto;
+
+}
+
+#wrapper {
+	margin:0 auto;
+
+}
+
+a {
+
+}
+
+a:active {
+
+
+}
+
+a:hover {
+
+
+}
+a:visited {
+
+
+}
+
+/*****************************************************
+Basic Header style
+*****************************************************/
+
+header {
+	background:#d8bfa1;
+	text-align: center;
+
+}
+
+hgroup {
+
+}
+
+header h1 {
+
+
+}
+
+header h2 {
+
+	
+}
+
+#logo {
+
+}
+
+/*****************************************************
+Top fixed navigation style
+*****************************************************/
+
+#topnav {
+
+
+}
+.active {
+
+
+}
+
+#topnav li {
+
+}
+
+#topnav a {
+
+}
+
+#topnav a:hover {
+
+}
+/* second level*/
+
+#topnav ul {
+
+
+}
+#topnav ul li {
+
+}
+
+#topnav ul a {
+
+}
+
+#topnav li:hover ul {
+
+}
+
+#topnav li:hover a {
+
+}
+
+#topnav li:hover ul a {
+
+
+}
+
+#topnav li:hover ul li a:hover {
+
+}
+
+/*****************************************************
+Main wrapper layout
+*****************************************************/
+
+#mainwrapper {
+
+}
+/*****************************************************
+Side layout
+*****************************************************/
+
+
+aside {
+
+}
+
+.leftbar {
+
+}
+
+.profile {
+
+}
+.profile img {
+
+}
+.profile h4 {
+
+}
+
+.profile p{
+
+}
+#conntactme {
+
+}
+
+.cm p {
+
+}
+.cm img {
+
+}
+/*****************************************************
+Article layout
+*****************************************************/
+#articlecontainer{
+
+}
+.bloghead {
+
+}
+.bloghead img{
+
+}
+
+.aimg {
+
+}
+hgroup {
+
+}
+#arttitle {
+
+}
+#aauthor {
+
+}
+#date {
+
+}
+hgroup p {
+
+}
+#blogbody {
+
+}
+#blogbody p{
+
+}
+
+/*****************************************************
+Commments layout
+*****************************************************/
+
+/*****************************************************
+Footer style
+*****************************************************/
+
+footer {
+	clear: both;
+	margin: auto;
+	padding: 5px;
+	font-size: 1em;
+	background-color: #78866b;
+
+}
+footer p {
+	text-align: center;
+	font-size: 12px;
+	color: #110c07: 
+}
+
+
+
+
+
+
+
