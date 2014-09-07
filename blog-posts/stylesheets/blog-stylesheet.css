@@ -56,5 +56,13 @@ h2 {
 
 }
 h5 {
-	position: center;
+	text-align: center;
+}
+
+code, pre {
+    font-family: "Courier New","Andale Mono",monospace;
+}
+img .display{
+	display: inline;
+	vertical-align: top;
 }

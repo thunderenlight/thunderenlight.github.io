@@ -1,13 +1,14 @@
 
 
-
 /*****************************************************
 Basic Body reset wrapping layout
 *****************************************************/
 
 body {
-	color: #000000;
-	margin:0 auto;
+	background-color: #E0DDCB;
+	margin: 0 auto;
+	font-family: 'Lato', sans-serif;
+	padding:0;
 
 }
 
@@ -16,36 +17,21 @@ body {
 
 }
 
-a {
-
-}
-
-a:active {
-
-
-}
-
-a:hover {
-
-
-}
-a:visited {
-
-
-}
 
 /*****************************************************
 Basic Header style
 *****************************************************/
 
-header {
-	background:#d8bfa1;
-	text-align: center;
-
-}
+header{
+	padding: .1%;
+	z-index:1000;
+	background:#78866b;
+	text-align: right;
+	opacity: 75%;
+	}
 
 hgroup {
-
+	margin:auto;
 }
 
 header h1 {
@@ -59,62 +45,82 @@ header h2 {
 }
 
 #logo {
-
+display: inline-block;
+float: left;
+padding: .5%;
 }
 
 /*****************************************************
 Top fixed navigation style
 *****************************************************/
-
-#topnav {
-
-
+/*body > header nav a:hover:before {
+    transform: translateY(-5px) scale(1.1) rotate(-1deg);
 }
-.active {
+*/
+
+ #topnav{
+	background:#78866b;
+	padding:.1% 5%;
+	list-style:none;
+
+	}
+
+#topnav ul, #topnav li{
+	display: inline-block;
+	}
+
+#topnav li a:link, #topnav li a:visited, #topnav li a:hover{
+	display:inline-block;
+	margin:1%;
+	padding:1% 25%;
+	color:#2A0201;
+	font-size: 1.1em;
+	font-weight: bold;
+	background: none;
+	text-decoration: none;
+
+	}
+
+#topnav ul ul li a:link, #topnav ul ul li a:visited{
+	display:block;
+		
+	}
 
 
-}
+#topnav li a:hover, #topnav ul li.active a{
+	color:#594A0B;
+	
+	}
 
-#topnav li {
 
-}
+#topnav li ul{
+	
+	position:absolute;
+	left:-999em;
+	height:auto;
+	width:1%;
+	
+	}
 
-#topnav a {
+#topnav li ul ul{margin:-1% 1% 0 0;}
 
-}
+#topnav li:hover ul ul{left:-999em;}
 
-#topnav a:hover {
+#topnav li:hover ul, #topnav li li:hover ul{left:auto;}
 
-}
+
+
 /* second level*/
 
-#topnav ul {
+/*dropdown menu styles*/
 
-
-}
-#topnav ul li {
-
-}
-
-#topnav ul a {
-
-}
-
-#topnav li:hover ul {
-
-}
-
-#topnav li:hover a {
-
-}
-
-#topnav li:hover ul a {
-
-
-}
-
-#topnav li:hover ul li a:hover {
-
+ul#topnav li:hover .sub1 {
+		display: block;
+		
+		}
+.sub1 {
+	background: none;
+	width: auto;
 }
 
 /*****************************************************
@@ -122,6 +128,9 @@ Main wrapper layout
 *****************************************************/
 
 #mainwrapper {
+	width: 80%;
+	margin: auto;
+	background-color: #D1CCB1;
 
 }
 /*****************************************************
@@ -130,17 +139,28 @@ Side layout
 
 
 aside {
+	border-top: 1.9% solid gold;
+	box-shadow: .8%  #888888;
+	padding: 2%;
+	background:#dadfd6;
+	
+	float: right;
+	display: block;
+	width: 18%;
+	height: auto;
+	margin: 3.3% 5.75%;
 
 }
 
 .leftbar {
-
+text-align: right;
 }
 
 .profile {
 
 }
 .profile img {
+	border: 1px solid grey;
 
 }
 .profile h4 {
@@ -148,23 +168,33 @@ aside {
 }
 
 .profile p{
-
+font-style: italic;
 }
-#conntactme {
+#contactme {
 
 }
 
 .cm p {
-
+	font-style: light;
 }
 .cm img {
-
+	display: inline-block;
 }
+	
 /*****************************************************
 Article layout
 *****************************************************/
 #articlecontainer{
-
+	border-right: .1% solid #360608;
+	
+	
+	padding: 5%;
+	background:#D1CCB1;
+	float: left;
+	display: block;
+	width: 45%;
+	height: auto;
+	margin: .2% 0 0 .3%;
 }
 .bloghead {
 
@@ -175,17 +205,18 @@ Article layout
 
 .aimg {
 
+
 }
 hgroup {
 
 }
-#arttitle {
+#atitle {
 
 }
 #aauthor {
 
 }
-#date {
+#adate {
 
 }
 hgroup p {
@@ -198,13 +229,27 @@ hgroup p {
 
 }
 
+pre {
+	font-size: 1.2em;
+	padding: 1em .5em;
+	overflow: auto;
+	line-height: 1.6;
+}
+
 /*****************************************************
 Commments layout
 *****************************************************/
 
+
+/*****************************************************
+Share style
+*****************************************************/
+
+
 /*****************************************************
 Footer style
 *****************************************************/
+
 
 footer {
 	clear: both;
@@ -219,6 +264,109 @@ footer p {
 	font-size: 12px;
 	color: #110c07: 
 }
+
+/*****************************************************
+Responsive layout
+*****************************************************/
+/*mobile style*/
+
+@media screen and (max-width: 420px) {
+	article p{
+		font-size: 16px;
+	}
+
+	code{
+		font-size: 12px;
+	}
+
+	.resource-links {
+	font-family: 'Roboto';
+	font-size: 14px;
+	}
+
+	article blockquote {
+		font-size: 16px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#sidebar {
+		display: none;
+	}
+
+		header h1 {
+		font-size: 50px;
+	}
+
+	header h2{
+		font-size: 14px;
+	}
+
+	
+
+	header{
+		padding-bottom: 5px;
+	}
+
+	
+}
+/* tablet and smaller screen*/
+@media screen and (min-width: 700px) {
+	#sidebar{
+		display: inherit;
+		width: 25%;
+	}
+
+	
+
+	header h1{
+		text-align: left;
+		font-size: 64px;
+	}
+
+	header h2{
+		text-align: left;
+		margin-left: 3.5em;
+		font-size: 16px;
+	}
+
+
+}
+/*average desktop*/
+
+@media screen and (min-width: 970px){
+	#sidebar{
+		width: 25%;
+	}
+
+	header h1{
+		
+	}
+
+	header h2{
+		
+	}
+
+	}
+
+}
+/*large desktop*/
+@media screen and (min-width: 1096px){
+	#sidebar{
+		width: 200px;
+	}
+
+
+}
+/*larger screen resolution//tv monitors*/
+
+@media screen and (min-width: 1200px){
+	#sidebar{
+		width: 200px;
+	}
+
+}
+
 
 
 
