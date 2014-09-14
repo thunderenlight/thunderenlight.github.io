@@ -13,7 +13,6 @@ body {
 }
 
 #wrapper {
-
 	margin:0 auto;
 
 }
@@ -24,17 +23,15 @@ Basic Header style
 *****************************************************/
 
 header{
-	width: 100%;
-	/*padding: .1%;*/
+	padding: .1%;
 	z-index:1000;
 	background:#78866b;
-	/*text-align: right;*/
-	border: 1px solid pink;
-	position: fixed;
+	text-align: right;
+	opacity: 75%;
 	}
 
 hgroup {
-	
+	margin:auto;
 }
 
 header h1 {
@@ -48,12 +45,9 @@ header h2 {
 }
 
 #logo {
-/*display: inline;*/
-
-display: inline;
+display: inline-block;
 float: left;
-border: 1px solid red;
-/*padding: .5%;*/
+padding: .5%;
 }
 
 /*****************************************************
@@ -66,45 +60,25 @@ Top fixed navigation style
 
  #topnav{
 	background:#78866b;
-	padding-right: 3%;
-	border: 1px solid white;
-	float: right;
-	
+	padding:.1% 5%;
+	list-style:none;
 
 	}
-
-ul {
-  margin: 0;
-  padding: 0;
-}
 
 #topnav ul, #topnav li{
-	margin-bottom: -10%;
-	padding-left: 2%;
-	padding-right: 2%;
 	display: inline-block;
-	border: 1px solid blue;
 	}
 
-#topnav li:last-child {
-	padding: 0%;
-	background-color: white;
-	display: inline-block;
-	
-}
-
 #topnav li a:link, #topnav li a:visited, #topnav li a:hover{
-	/*display:inline-block;*/
-	/*margin:1%;*/
-	/*padding:1% 25%;*/
-	padding: 0;
+	display:inline-block;
+	margin:1%;
+	padding:1% 25%;
 	color:#2A0201;
-	font-size: 1.3em;
+	font-size: 1.1em;
 	font-weight: bold;
-	/*background: none;*/
-	/*background-color: white;*/
+	background: none;
 	text-decoration: none;
-	
+
 	}
 
 #topnav ul ul li a:link, #topnav ul ul li a:visited{
@@ -123,24 +97,16 @@ ul {
 	
 	position:absolute;
 	left:-999em;
-	/*height:auto;*/
+	height:auto;
 	width:1%;
 	
 	}
 
-#topnav li ul ul{
-	margin:-1% 1% 0 0;
-	background-color: white;
-
-}
+#topnav li ul ul{margin:-1% 1% 0 0;}
 
 #topnav li:hover ul ul{left:-999em;}
 
-#topnav li:hover ul, #topnav li li:hover ul{
-	left:auto;
-	background-color: white;
-
-}
+#topnav li:hover ul, #topnav li li:hover ul{left:auto;}
 
 
 
@@ -150,13 +116,6 @@ ul {
 
 ul#topnav li:hover .sub1 {
 		display: block;
-		background-color: white;
-
-		
-		}
-ul#topnav li:hover .sub2 {
-display: block;
-
 		
 		}
 .sub1 {
@@ -172,8 +131,6 @@ Main wrapper layout
 	width: 80%;
 	margin: auto;
 	background-color: #D1CCB1;
-	border: 1px solid yellow;
-
 
 }
 /*****************************************************

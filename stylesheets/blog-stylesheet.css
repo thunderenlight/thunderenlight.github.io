@@ -2,11 +2,18 @@ body {
 	background: #d8d8c7;
 	width: 75%;
 	position:center;
+	font-family: Arial, sans-serif;
 
 }
 nav {
 	background:#6c6c4c;
 	padding-top: 10px;
+}
+.heading {
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 }
 
 * {
