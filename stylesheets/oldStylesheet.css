@@ -13,6 +13,7 @@ body {
 }
 
 #wrapper {
+
 	margin:0 auto;
 
 }
@@ -23,22 +24,17 @@ Basic Header style
 *****************************************************/
 
 header{
-	/*padding: .1%;*/
-	/*z-index:1000;*/
-	background:#78866b;
-	text-align: right;
-	opacity: 75%;
-
-
 	width: 100%;
 	/*padding: .1%;*/
+	z-index:1000;
+	background:#78866b;
 	/*text-align: right;*/
-	/*border: 1px solid pink;*/
+	border: 1px solid pink;
 	position: fixed;
 	}
 
 hgroup {
-	margin:auto;
+	
 }
 
 header h1 {
@@ -52,9 +48,12 @@ header h2 {
 }
 
 #logo {
-display: inline-block;
+/*display: inline;*/
+
+display: inline;
 float: left;
-padding: .7%;
+border: 1px solid red;
+/*padding: .5%;*/
 }
 
 /*****************************************************
@@ -67,26 +66,45 @@ Top fixed navigation style
 
  #topnav{
 	background:#78866b;
-	/*padding:.1% 1%;*/
-	list-style:none;
-	/*border: 1px solid white;*/
+	padding-right: 3%;
+	border: 1px solid white;
+	float: right;
+	
 
 	}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
 
 #topnav ul, #topnav li{
+	margin-bottom: -10%;
+	padding-left: 2%;
+	padding-right: 2%;
 	display: inline-block;
+	border: 1px solid blue;
 	}
 
+#topnav li:last-child {
+	padding: 0%;
+	background-color: white;
+	display: inline-block;
+	
+}
+
 #topnav li a:link, #topnav li a:visited, #topnav li a:hover{
-	display:inline-block;
-	margin:1%;
-	padding:1% 15%;
+	/*display:inline-block;*/
+	/*margin:1%;*/
+	/*padding:1% 25%;*/
+	padding: 0;
 	color:#2A0201;
 	font-size: 1.3em;
 	font-weight: bold;
-	background: none;
+	/*background: none;*/
+	/*background-color: white;*/
 	text-decoration: none;
-
+	
 	}
 
 #topnav ul ul li a:link, #topnav ul ul li a:visited{
@@ -96,7 +114,7 @@ Top fixed navigation style
 
 
 #topnav li a:hover, #topnav ul li.active a{
-	color:#e1bc1b;
+	color:#594A0B;
 	
 	}
 
@@ -105,16 +123,24 @@ Top fixed navigation style
 	
 	position:absolute;
 	left:-999em;
-	height:auto;
+	/*height:auto;*/
 	width:1%;
 	
 	}
 
-#topnav li ul ul{margin:-1% 1% 0 0;}
+#topnav li ul ul{
+	margin:-1% 1% 0 0;
+	background-color: white;
+
+}
 
 #topnav li:hover ul ul{left:-999em;}
 
-#topnav li:hover ul, #topnav li li:hover ul{left:auto;}
+#topnav li:hover ul, #topnav li li:hover ul{
+	left:auto;
+	background-color: white;
+
+}
 
 
 
@@ -123,13 +149,13 @@ Top fixed navigation style
 /*dropdown menu styles*/
 
 ul#topnav li:hover .sub1 {
-	display: block;
-	
-}
+		display: block;
+		background-color: white;
 
+		
+		}
 ul#topnav li:hover .sub2 {
-	display: block;
-	margin: 6% 12%;
+display: block;
 
 		
 		}
@@ -144,9 +170,10 @@ Main wrapper layout
 
 #mainwrapper {
 	width: 80%;
-	padding-top: 4%;
 	margin: auto;
 	background-color: #D1CCB1;
+	border: 1px solid yellow;
+
 
 }
 /*****************************************************
