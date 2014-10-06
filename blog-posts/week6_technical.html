@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--this is comment to go on the top of a very crude blog practice page-->
+
+<html>
+     <head>
+          <title>DBC Technical Blog</title>
+          <link rel="stylesheet" href="../stylesheets/blog-stylesheet.css" type="text/css"/> 
+     </head>
+     <body>
+     
+     
+
+     
+      <div id="head">
+	      <h2> a DBC journey</h2>
+	       <div id="logo">
+	       <a href="#"/>
+	       	 <img src="../imgs/lil_mount.jpg"/>
+	       	 </a>
+	       	 </div>
+	<nav>
+	        <div id="navbar">
+	          <ul>
+	            <li class="active"><a href="#">Home</a></li>
+	            <li><a href="Technical.html">Technical Blog</a></li> 
+	            <li><a href="Cultural.html">Cultural Blog</a></li>`
+			   </ul>
+			   <br>
+			 </div>
+			 </nav>
+	  </div>
+
+	<div id="container">
+		<div class="homepage">
+		<div id="head">
+			<h3><a href="Technical.html"><img size="30%" src="../imgs/technical.jpg"/><br>Technical Blog</br></h3></a>	
+			<h4> CLASS METHODS</h4>	
+			
+			<img  class="display"style="width 300px" src="../imgs/self_screen.png">
+		<p>Let's get Self-ish!</p>
+		</div>
+		<p>Ruby is about objects, and objects are instances of classes. When you need to set or change an object’s state at some point in your program other than the initialize method, the heart of the matter is assigning (or reassigning) values to instance variables. New is a class method. It's a built-in class method to every Ruby object. So, we can call new, and it returns a new instance to us.You can, of course, change any instance variable’s value in any method. Admittedly, new is a particularly thorny case. But in general, the term class method isn’t necessarily a great fit for Ruby. It’s a concept shared with other object-oriented languages, but in those languages there’s a greater difference between class methods and instance methods. In Ruby, when you send a message to a class object, you can’t tell where and how the corresponding method was defined.</p>
+		<p>Class method is a method that exists on the class even when we don't have an instance, and that's what you are going to use class methods for. We are going to use a class method when we want the class, to do something for us. Even though there may not be an instance in sight. It doesn't matter, maybe there are instances, maybe there aren't.Defining class methods is very simple. We do it just the same way we do instance methods except that we put the self keyword in front of it. So, self.method_name let's us know that that is a class method. It's something that our class itself will execute. Now the self keyword in Ruby applies to whatever object we're currently in. </p>
+
+		<img src="../imgs/selfy.png">
+		<br>
+
+		<h4>Differences between Class and Instance variables:</h4>
+		
+		<p>Class methods do not have access to instance methods or instance variables. However instance methods can access both class methods and class variables. Class methods are executed in context of their arguments. Instance methods, in addition to arguments, are executed in context of state of the object. Using class methods means we can’t keep a state thus the state must be passed in method arguments. If some module is designed around class methods we deal with procedural-like programming passing arguments from one method to another.</p>
+
+
+
+		<br>
+
+
+		<img  class="display"src="../imgs/self.png">
+
+		<h4>How and when to use Class Methods</h4>
+
+    	<p>Using class methods can shorten and even "dry-ify" your code. In the long run this will of course help you and your code run more efficiently in a class or module definition, self is the class or module object. Class methods are defined as singleton methods for class objects. Singleton methods - those attached to a particular object can be called by only one object. When a singleton method is executed, self is the object that owns the method. In the context of a class, self refers to the current class, which is simply an instance of the class Class. Defining a method on self creates a class method. When you call a method without an explicit receiving object, the method is implicitly called on self.Now as I noted earlier, new is an example of another class method. We can create our own class methods that do things for us instead of just returning information. So, to add another method, this one will actually do something instead of just returning information, let's say a def self create_with_attributes, and the attributes we are going to pass are going to class	typically you'll put the class methods above the instance methods.
+		<br>
+		
+
+
+
+
+		</li>
+		</ul>
+		<ul>
+		
+		</li>
+		</ul>
+		</h4>
+		</div>
+		
+
+    
+     </body>
+</html>
