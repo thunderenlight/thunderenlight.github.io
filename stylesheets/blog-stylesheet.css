@@ -2,23 +2,24 @@ body {
 	background: #d8d8c7;
 	width: 75%;
 	/*padding-left: 20%*/
+	/*margin: auto, 0;*/
 	font-family: Tahoma;
 
 }
-nav {
+/*nav {
 	background:#6c6c4c;
 	padding-top: 10px;
-}
+}*/
 .heading {
 
     display: block;
     margin-left: auto;
     margin-right: auto }
 }
-.navbar {
+/*.navbar {
 	font-family: Tahoma;
 	font-size: 1.4em;
-}
+}*/
 
 * {
 	font-family: Tahoma;
@@ -28,6 +29,13 @@ nav {
 }
 #topnav {
 	text-align: left;
+}
+#container {
+	width: 80%;
+	padding-top: 4%;
+	margin: auto;
+	background-color: #D1CCB1;
+
 }
 li {
 	display: inline-block;
@@ -76,4 +84,10 @@ code, pre {
 img .display{
 	/*display: inline;*/
 	vertical-align: top;
+
+}
+img {
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
