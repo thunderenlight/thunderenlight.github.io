@@ -130,6 +130,7 @@ ul#topnav li:hover .sub1 {
 ul#topnav li:hover .sub2 {
 	display: block;
 	margin: 6% 12%;
+	font-size: 1em; 
 
 		
 		}
