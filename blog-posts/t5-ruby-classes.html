@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<!--this is comment to go on the top of a very crude blog practice page-->
+
+<html>
+     <head>
+          <title>DBC Technical Blog</title>
+          <link rel="stylesheet" href="../stylesheets/blog-stylesheet.css" type="text/css"/> 
+     </head>
+     <body>
+     
+     
+
+     
+      <div id="head">
+	      <img width="30%" src="../imgs/journey.png"/> 
+	       <div id="logo">
+	       <a href="#"/>
+	       	 <img style="margin; 0" src="../imgs/lil_mount.jpg"/>
+	       	 </a>
+	       	</div>
+	<nav>
+	        <div id="navbar">
+	          <ul>
+	            <li class="active"><a href="#">Home</a></li>
+	            <li><a href="Technical.html">Technical Blog</a></li> 
+	            <li><a href="Cultural.html">Cultural Blog</a></li>
+			   </ul>
+			   	<h3><a href="Technical.html"><img width="50%" src="../imgs/technical.jpg"/><br>Technical Blog</br></h3></a>	
+
+			   <br>
+			</div>
+			
+	  </div>
+
+	<div id="container">
+		<div class="homepage">
+		<div id="innerhead">
+			<h4> Eight Queens - A classic Class puzzle</h4>	
+			
+			<img  class="display"style="width 300px" src="../imgs/eight.png">
+		<p>Let's Class it up!</p>
+		</div>
+		<p>Consider the <a href="http://en.wikipedia.org/wiki/Eight_queens_puzzle">Eight queens puzzle</a>.It requires an understanding of recursion and algorithm design and can be quite useful as an exercise in learning to program solutions for complex problems. This problem was first proposed by Max Bezzel in 1848, and solved by Franz Nauck in 1850. The problem is simple. Start with a chess board and eight queens. Then set up the board so that no two queens can attack each other. There is more than one solution, in fact 92 distinct forms of solutions.</p>
+		<p>The first thing that we'll need to do is to define our chess board and our queen. In Ruby, these will each be a class. We'll have a Ruby class for board and a Ruby class for queen. Those classes can be instantiated into objects. We can create a new instance of our board class and then we can create eight new instances of our queen class in order to place them on the board. Those classes are going to have some intelligence. They're going to have methods to find on them, they will allow them to know things, to do things, and to interact with each other.So one of the first choices we'll need to make is to decide if the board or the queen is going to be in charge of detecting safe positions. I've seen this programmed both ways. Much of the direction that your solution takes will depend on this early fundamental choice. Now this is the eight queens problem and we are using a standard chess board. That means we have eight queens, eight columns, and eight rows. And because a queen can attack vertically and horizontally, it logically follows that we can only have one queen per column and one queen per row. We can use this fact to get a jump start on our algorithm. We don't have to try to place a queen in every single square on the board. We can take a shortcut by placing one queen in each column. Once we've placed a queen in the left most column, we already know that the other squares in that column aren't going to be considered safe. So we can just move immediately to the next column and once we've placed that queen, we can move to the column after that. One queen per column. This will greatly speed up our algorithm and simplify our code. Or if you prefer, you can place one queen per row:</p>
+
+		<img src="../imgs/hashexp.png">
+		<br>
+
+		<img  class="display"src="../imgs/qss.png">	
+		<p>The first thing that we'll need to do is to define our chess board and our queen. In Ruby, these will each be a class. We'll have a Ruby class for board and a Ruby class for queen. Those classes can be instantiated into objects. We can create a new instance of our board class and then we can create eight new instances of our queen class in order to place them on the board. Those classes are going to have some intelligence. They're going to have methods to find on them, they will allow them to know things, to do things, and to interact with each other.
+		So one of the first choices we'll need to make is to decide if the board or the queen is going to be in charge of detecting safe positions. I've seen this programmed both ways. Much of the direction that your solution takes will depend on this early fundamental choice. Now this is the eight queens problem and we are using a standard chess board. That means we have eight queens, eight columns, and eight rows. And because a queen can attack vertically and horizontally, it logically follows that we can only have one queen per column and one queen per row.
+		We can use this fact to get a jump start on our algorithm. We don't have to try to place a queen in every single square on the board. We can take a shortcut by placing one queen in each column. Once we've placed a queen in the left most column, we already know that the other squares in that column aren't going to be considered safe. So we can just move immediately to the next column and once we've placed that queen, we can move to the column after that. One queen per column. This will greatly speed up our algorithm and simplify our code. Or if you prefer, you can place one queen per row.</p>
+		<p>It's the same thing, just rotated 90 degrees. Next, you should consider how you want to display the results. You'll need some form of output that can show you the current positions of the queens on the board. You could simply generate a list of the positions for each queen or I think even better you could output a diagram of the board so that you can more easily visualize each position. Because we'll be working from the command line that will be easiest to do as text output to the command line. And having a way to view the output of the current board in progress is going to make developing and working out bugs in your code much easier.</p> </p>
+
+
+
+		<br>
+
+
+		<img  class="display"src="../imgs/bss.png">
+
+		<h4>Loops versus Recursion</h4>
+
+    	<p>Most of the classic solutions to this problem use recursion exclusively. But both of these could solve our puzzle.  First, loops are probably more familiar to the beginner and they're easier to get your head around. Recursion might be a new concept, and it can be a little bit tricky at first. Second, I think it's instructive to compare loops with recursion. It'll help us to understand why recursion is the more common solution. It'll help  to appreciate the power that recursion offers in solving similar design challenges.
+
+<br>
+		<br>
+		
+
+
+
+
+		</li>
+		</ul>
+		<ul>
+		
+		</li>
+		</ul>
+		</h4>
+		</div>
+		
+
+    
+     </body>
+</html>
