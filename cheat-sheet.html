@@ -1,0 +1,61 @@
+<!doctype.html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CheatSheet</title>
+    
+     <link rel="stylesheet" href="stylesheets/cheat-sheet.css" />
+ 
+  </head>
+  <body>
+	<header>
+		<h4> Javascript Objects</h4>
+
+	</header>
+				
+	<div class="gridwrapper">
+	     <div class="intro">
+	     <p>
+	     Javascript Object is a combination of a Ruby class and a Ruby Hash.
+	     In keeping in line with object orientated principles, a JS object has properties and methods attached to it. 
+	     Javascript Objects can be created using literal and constructor notation. Properties are assigned using name value pairs similar to a Ruby hash.</p>
+	 
+	    </div>
+	     <div class="create">
+	     <p>
+	     <h5>Creating Objects</h5>
+	     <code>var hat = {   <br>
+	     	style: "baseball", <br>
+	     	color: "grey", <br>
+	     	brand: "Obey" <br>
+	     }, <br>
+	     </code></p>
+	     </div>
+	     <div class="add">
+	     <p>
+	     <h5>Adding Methods</h5>
+	     <code>
+	     hat.whatColor = function() { <br>
+	     this.color <br>
+	     }; <br>
+	     console.log(hat.whatColor) <br>
+		</code></p>
+	     </div>
+	     <div class="proto">
+	     <p>
+	     <h5>Using Prototypes to create Objects:</h5>
+	     <code>
+	     function Hat(style, color, brand) { <br>
+	     this.style = style; <br>
+	     this.color = color; <br>
+	     this.brand = brand; <br>
+	     } <br>
+	     var myHat = new Hat("fedora", "black", "Goorin Bros.");<br>
+	     </code>
+	     </p>
+	     </div>
+	 </div>
+</div>
+</body>
+
