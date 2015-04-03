@@ -1,0 +1,22 @@
+---
+layout: page
+title: Projects
+header: Posts By Projects
+group: navigation
+---
+{% include JB/setup %}
+
+<ul class="tag_box inline">
+  {% assign projects_list = site.projects %}
+  {% include JB/projects_list %}
+</ul>
+
+
+{% for project in site.projects %} 
+  <h2 id="{{ project[0] }}-ref">{{ project[0] | join: "/" }}</h2>
+  <ul>
+    {% assign pages_list = project[1] %}  
+    {% include JB/pages_list %}
+  </ul>
+{% endfor %}
+
