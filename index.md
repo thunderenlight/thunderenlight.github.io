@@ -8,10 +8,9 @@ tagline: Supporting tagline
 
 ![My dbc journey]({{ site.url }}/assets/imgs/journey.png)
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
-
+<!-- Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+ -->
 
 ## MyBlog: 
 

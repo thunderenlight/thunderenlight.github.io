@@ -1,17 +1,17 @@
 
-http://thunderenlight.github.io/about.html
-http://thunderenlight.github.io/archive.html
+http://thunderenlight.github.io/about
+http://thunderenlight.github.io/archive
 http://thunderenlight.github.io/atom.xml
-http://thunderenlight.github.io/categories.html
-http://thunderenlight.github.io/cultural.html
-http://thunderenlight.github.io/projects/gps1.html
-http://thunderenlight.github.io/index.html
-http://thunderenlight.github.io/pages.html
-http://thunderenlight.github.io/projects.html
+http://thunderenlight.github.io/categories
+http://thunderenlight.github.io/design
+http://thunderenlight.github.io/projects/gps1
+http://thunderenlight.github.io/
+http://thunderenlight.github.io/pages
+http://thunderenlight.github.io/projects
 http://thunderenlight.github.io/rss.xml
 http://thunderenlight.github.io/sitemap.txt
-http://thunderenlight.github.io/tags.html
-http://thunderenlight.github.io/technical.html
+http://thunderenlight.github.io/tags
+http://thunderenlight.github.io/technical
 
 http://thunderenlight.github.io/cultural/dbc/2015/04/03/c9-questions
 http://thunderenlight.github.io/2015/04/02/tech-blog
