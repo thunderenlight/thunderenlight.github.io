@@ -3,7 +3,7 @@ http://thunderenlight.github.io/about
 http://thunderenlight.github.io/archive
 http://thunderenlight.github.io/atom.xml
 http://thunderenlight.github.io/categories
-http://thunderenlight.github.io/design
+http://thunderenlight.github.io/cultural
 http://thunderenlight.github.io/projects/gps1
 http://thunderenlight.github.io/
 http://thunderenlight.github.io/pages
