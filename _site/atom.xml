@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>ThunderEnlight DBC</title>
+ <title>ThunderEnlight</title>
  <link href="http://thunderenlight.github.io/" rel="self"/>
  <link href="http://thunderenlight.github.io"/>
- <updated>2016-04-20T17:03:08-05:00</updated>
+ <updated>2016-04-20T18:21:54-05:00</updated>
  <id>http://thunderenlight.github.io</id>
  <author>
    <name>K Glenn</name>
