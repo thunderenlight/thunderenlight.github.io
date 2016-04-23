@@ -4,7 +4,7 @@
  <title>ThunderEnlight</title>
  <link href="http://thunderenlight.github.io/" rel="self"/>
  <link href="http://thunderenlight.github.io"/>
- <updated>2016-04-20T18:21:54-05:00</updated>
+ <updated>2016-04-23T18:57:10-05:00</updated>
  <id>http://thunderenlight.github.io</id>
  <author>
    <name>K Glenn</name>
@@ -89,8 +89,8 @@
 
 &lt;h3 id=&quot;what-does-it-mean-to-display-inline-vs-inline-blocks&quot;&gt;What does it mean to display inline vs inline blocks?&lt;/h3&gt;
 
-&lt;!-- &lt;img  class=&quot;display&quot;style=&quot;width 300px&quot; src=&quot;../imgs/inline_block.png&quot;&gt;&lt;img  class=&quot;display&quot;style=&quot;width 300px&quot; src=&quot;../imgs/inline.png&quot;&gt;
- --&gt;
+&lt;p&gt;&lt;img width=&quot;300px&quot; src=&quot;/assets/imgs/inline_block.png&quot; /&gt;&lt;/p&gt;
+
 &lt;p&gt;I wanted to discuss the differences between the display inline vs. inline block because it was one of the hardest for me to grasp. So the firstp&amp;gt;The &lt;code&gt;display&lt;/code&gt; CSS property specifies the type of rendering box used for an element. In HTML, default &lt;code&gt;display&lt;/code&gt; property values are taken from behaviors described in the HTML specifications or from the browser/user default stylesheet. The default value in XML is &lt;code&gt;inline&lt;/code&gt;.&lt;/p&gt;
 &lt;p&gt;In addition to the many different display box types, the value &lt;code&gt;none&lt;/code&gt; lets you turn off the display of an element; when you use &lt;code&gt;none&lt;/code&gt;, all descendant elements also have their display turned off. The document is rendered as though the element doesn&#39;t exist in the document tree.
 		&lt;p&gt;&lt;li&gt;&lt;strong&gt;inline&lt;/strong&gt; - An inline box will be produced by the element. Inline box elements are not proceeded or followed by line breaks and they occupy only the width that they need.&lt;/li&gt;
