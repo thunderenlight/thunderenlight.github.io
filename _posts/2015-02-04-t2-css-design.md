@@ -12,7 +12,7 @@ tags: Technical
 
 ### What does it mean to display inline vs inline blocks?	
 			
-<img width="300px" src="/assets/imgs/inline_block.png">
+<img width="350px" src="/assets/imgs/inline_block.png">
 
 I wanted to discuss the differences between the display inline vs. inline block because it was one of the hardest for me to grasp. So the firstp>The <code>display</code> CSS property specifies the type of rendering box used for an element. In HTML, default <code>display</code> property values are taken from behaviors described in the HTML specifications or from the browser/user default stylesheet. The default value in XML is <code>inline</code>.
 <p>In addition to the many different display box types, the value <code>none</code> lets you turn off the display of an element; when you use <code>none</code>, all descendant elements also have their display turned off. The document is rendered as though the element doesn't exist in the document tree.
