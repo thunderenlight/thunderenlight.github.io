@@ -1,18 +1,13 @@
 ---
 layout: page
-title: Welcome!
-tagline: Supporting tagline
+title: Welcome
+tagline: 
 ---
 {% include JB/setup %}
 
+![My web dev journey]({{ site.url }}/assets/imgs/journey.png)
 
-![My dbc journey]({{ site.url }}/assets/imgs/journey.png)
-
-
-<!-- Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
- -->
-
-## MyBlog: 
+## A web dev's adventure begins: 
 
 #### Stepping into the wild web...
 
@@ -42,5 +37,3 @@ Here's my "posts list".
 This site is still unfinished.
 
 I need to clean up the site, and include piwik analytics and enable comments.
-
-

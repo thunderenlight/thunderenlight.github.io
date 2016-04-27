@@ -130,8 +130,6 @@ Jekyll expects your website directory to be laid out like so:
 Jekyll supports various configuration options that are fully outlined here:
 (<https://github.com/mojombo/jekyll/wiki/Configuration>)
 
-# Jekyll Updates
-
 
 
 
