@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Css Design</title>
+    
+    <meta name="author" content="K Glenn">
+
+    <!-- Enable responsive viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap styles -->
+    <link href="assets/themes/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optional theme -->
+    <link href="assets/themes/bootstrap/css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- Sticky Footer -->
+    <link href="assets/themes/bootstrap/css/bs-sticky-footer.css" rel="stylesheet">
+    
+    <!-- Custom styles -->
+    <link href="assets/themes/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <!-- Update these with your own images
+      <link rel="shortcut icon" href="images/favicon.ico">
+      <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+    -->
+
+    <!-- atom & rss feed -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Sitewide ATOM Feed">
+    <link href="/rss.xml" type="application/rss+xml" rel="alternate" title="Sitewide RSS Feed">
+
+  </head>
+
+  <body>
+    <div id="wrap">
+      <nav class="navbar navbar-default" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">ThunderEnlight</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+          <ul class="nav navbar-nav">
+            
+            
+            
+
+
+  
+    
+      
+      	
+      	<li><a href="/archive.html">Archive</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/categories.html">Categories</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/pages.html">Pages</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/projects.html">Projects</a></li>
+      	
+      
+    
+  
+    
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tags.html">Tags</a></li>
+      	
+      
+    
+  
+    
+      
+      	
+      	<li><a href="/tech-blogs.html">Technical Blogs</a></li>
+      	
+      
+    
+  
+
+
+
+          </ul>
+          <form class="navbar-form navbar-right" role="search">
+            <div class="form-group">
+              <input type="text" class="form-control" placeholder="Search">
+            </div>
+            <button type="submit" class="btn btn-default">Submit</button>
+          </form>
+        </div><!-- /.navbar-collapse -->
+      </nav>
+      <div class="row-fluid">
+          <div class="span8">
+              
+<div class="page-header">
+  <h1>Css Design </h1>
+</div>
+
+<div class="row post-full">
+  <div class="col-xs-12">
+    <div class="date">
+      <span>02 February 2015</span>
+    </div>
+    <div class="content">
+      <p><img src="/assets/imgs/lil_mount.jpg" alt="My dbc climb" />
+<img src="/assets/imgs/journey.png" alt="My dbc journey" /></p>
+
+<h3 id="what-does-it-mean-to-display-inline-vs-inline-blocks">What does it mean to display inline vs inline blocks?</h3>
+
+<p><img width="350px" src="/assets/imgs/inline_block.png" /></p>
+
+<p>I wanted to discuss the differences between the display inline vs. inline block because it was one of the hardest for me to grasp. So the firstp&gt;The <code>display</code> CSS property specifies the type of rendering box used for an element. In HTML, default <code>display</code> property values are taken from behaviors described in the HTML specifications or from the browser/user default stylesheet. The default value in XML is <code>inline</code>.</p>
+<p>In addition to the many different display box types, the value <code>none</code> lets you turn off the display of an element; when you use <code>none</code>, all descendant elements also have their display turned off. The document is rendered as though the element doesn't exist in the document tree.
+		<p><li><strong>inline</strong> - An inline box will be produced by the element. Inline box elements are not proceeded or followed by line breaks and they occupy only the width that they need.</li>
+  		<li><strong>block</strong> - A block box will be produced by the element. Block box elements are proceeded and followed by line breaks. Block box elements occupy the full available width unless their widths are specifically set.</li>
+  		<li><strong>list-item</strong> - The element will be displayed as a list-item element.</li>
+	  <li><strong>inline-block</strong> - A combination block and inline box is produced by the element. The element will be laid out as if it were an inline box. However, the element functions as a block container to its contents. The width of the element's box can be set.</li>
+	  <li><strong>table</strong> - The element functions like the HTML <a href="/html/table_tag/">&lt;table&gt;</a> element formatted as a block element.</li>
+	  <li><strong>inline-table</strong> - The element functions like the HTML <a href="/html/table_tag/">&lt;table&gt;</a> element formatted as an inline element.</li>
+	  <li><strong>table-row-group</strong> - The element functions like the HTML <a href="/html/tbody_tag/">&lt;tbody&gt;</a> element.</li>
+	  <li><strong>table-header-group</strong> - The element functions like the HTML <a href="/html/thead_tag/">&lt;thead&gt;</a> element.</li>
+	  <li><strong>table-footer-group</strong> - The element functions like the HTML <a href="/html/tfoot_tag/">&lt;tfoot&gt;</a> element.</li>
+	  <li><strong>table-row</strong> - The element functions like the HTML <a href="/html/tr_tag/">&lt;tr&gt;</a> element.</li>
+	  <li><strong>table-column-group</strong> - The element functions like the HTML <a href="/html/colgroup_tag/">&lt;colgroup&gt;</a> element.</li>
+	  <li><strong>table-column</strong> - The element functions like the HTML <a href="/html/col_tag/">&lt;col&gt;</a> element.</li>
+	  <li><strong>table-cell</strong> - The element functions like the HTML <a href="/html/td_tag/">&lt;td&gt;</a> and <a href="/html/th_tag/">&lt;th&gt;</a> elements.</li>
+	  <li><strong>table-caption</strong> - The element functions like the HTML <a href="/html/caption_tag/">&lt;caption&gt;</a> element.</li>
+	  <li><strong>none</strong> - The element is prevented from being displayed. No box will be produced.</li>
+	  <li><strong>inherit</strong> - The <strong>inherit</strong> keyword is used to specify that the value for this property should be taken from the parent element. If <strong>inherit</strong> is used with the root element, then the initial value for this property will be used.</li>
+
+		Web browsers render different elements in different ways. Some elements are block-level, meaning that their default display value is set to block. Block-level elements have a definable width and height and automatically create a new row in the layout as they’re created.One example of a block-level element is a paragraph.
+
+		
+</p></p>
+
+    </div>
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-open"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/categories.html#technical-ref">
+    		technical <span>2</span>
+    	</a></li>
+     
+    	<li><a href="/categories.html#dbc-ref">
+    		dbc <span>2</span>
+    	</a></li>
+    
+  
+
+
+    </ul>
+    
+
+  
+    <ul class="tag_box inline">
+      <li><i class="glyphicon glyphicon-tags"></i></li>
+      
+      
+
+
+  
+     
+    	<li><a href="/tags.html#Technical-ref">Technical <span>2</span></a></li>
+    
+  
+
+
+
+    </ul>
+    
+  
+    <hr>
+    <ul class="pagination">
+    
+      <li class="prev"><a href="/technical/dbc/2015/02/02/t1-compare-websites" title="Compare Websites">&laquo; Previous</a></li>
+    
+      <li><a href="/archive.html">Archive</a></li>
+    
+      <li class="next"><a href="/2015/04/02/tech-blog" title="Tech Blog">Next &raquo;</a></li>
+    
+    </ul>
+    <hr>
+    
+
+
+  <div id="disqus_thread"></div>
+<script type="text/javascript">
+    
+    var disqus_developer = 1;
+    var disqus_shortname = 'jekyllbootstrap'; // required: replace example with your forum shortname
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = 'http://' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+
+
+  </div>
+</div>
+
+
+          </div>
+          <div class="span4">
+              <h4 class="aside"> About me</h4>
+<p> Social me information</p>
+          </div>
+      </div>
+
+    <div id="footer">
+      <div class="container">
+        <p>&copy; 2016 K Glenn
+          with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+          and <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>
+        </p>
+      </div>
+    </div>
+
+    
+
+
+
+
+
+    <!-- Latest compiled and minified JavaScript, requires jQuery 1.x (2.x not supported in IE8) -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="/assets/themes/bootstrap/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+

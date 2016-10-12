@@ -71,12 +71,14 @@
           </form>
         </div><!-- /.navbar-collapse -->
       </nav>
-
-      <div class="container">
-        {{ content }}
+      <div class="row-fluid">
+          <div class="span8">
+              {{ content }}
+          </div>
+          <div class="span4">
+              {% include sidebar.html %}
+          </div>
       </div>
-
-    </div>
 
     <div id="footer">
       <div class="container">
