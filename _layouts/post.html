@@ -1,7 +1,10 @@
 ---
-theme :
-  name : bootstrap-3
-layout: default
+layout: page
 ---
-{% include JB/setup %}
-{% include themes/bootstrap-3/post.html %}
+<section id="blog">
+	<div class="container">
+		<div class="col-md-5 col-md-offset-3">
+			{{ content }}
+		</div>
+	</div>
+</section>
