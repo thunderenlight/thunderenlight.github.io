@@ -121,6 +121,20 @@ aside {
     background-color: transparent;
 }
 
+ul.icon {
+    list-style: none;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 2em;
+    margin: 0 0 1em 0;
+}
+    ul.icon li {
+        display: inline-block;
+        padding: 0 1.25em 0 0;
+    }
+
+
+
 @media(min-width:768px) {
     .navbar-default {
         border-color: rgba(255,255,255,.3);
