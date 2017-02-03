@@ -10,6 +10,9 @@ title: My Basecamp App
 
 Although the definition of application means both the request to an authority for something (e.g. a cover letter) and the action of putting something into operation, I have come to believe it also describes the best attributes that you want in a programmer and developer.  Basecamp provides a rooting and solidifying force.  Often when we think of OOP or FP in web architecture, there are characteristics that are more desirable.  As a programmer is my program, and the tools I use to apply a reflection of my solution space?  If so then it follows that it works both ways and I often like to think of these qualities of my work can also be used as a self portrait in programming.  Here are some of the broader character traits or lookalike features.
 
+![me](/img/me.jpg){:class="portfolio-box"}
+
+
 I'm obsessed with Basecamp web technologies and its open sourced tools.  With a passionate concentration on software engineering because it is developing new ways to empower those on the other side of the digital divide. Reaching beyond my comfort zone, I have come to love learning code mostly through the idea and implementation of open source and constant data feedback. Approaching the engineering community has given me opportunities to learn with peers from different backgrounds,  from instructors that lead with their heart and this has been the greatest motivation and structure for growth.
 
 
