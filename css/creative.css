@@ -46,7 +46,7 @@ h6 {
 }
 
 p {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     font-size: 16px;
     line-height: 1.5;
 }
@@ -280,6 +280,12 @@ header .header-content .header-content-inner p {
     max-width: 650px;
 }
 
+.app-box {
+    display: block;
+    position: relative;
+    margin: 0 auto;
+    max-width: 950px;
+}
 .portfolio-box .portfolio-box-caption {
     display: block;
     position: absolute;
