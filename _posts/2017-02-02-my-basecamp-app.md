@@ -5,7 +5,7 @@ title: My Basecamp App
 
 ![appidea](/img/app1.png){:class="app-box"}
 
-# Why am I like an awesome App!
+# Why being a developing Developer is like being an awesome App!
 
 
 Although the definition of application means both the request to an authority for something (e.g. a cover letter) and the action of putting something into operation, I have come to believe it also describes the best attributes that you want in a programmer and developer.  Basecamp provides a rooting and solidifying force.  Often when we think of OOP or FP in web architecture, there are characteristics that are more desirable.  As a programmer is my program, and the tools I use to apply a reflection of my solution space?  If so then it follows that it works both ways and I often like to think of these qualities of my work can also be used as a self portrait in programming.  Here are some of the broader character traits or lookalike features.
