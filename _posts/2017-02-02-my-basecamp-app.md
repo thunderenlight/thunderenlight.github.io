@@ -46,8 +46,8 @@ Communicating, interfacing, and considerations are key for interoperability. Emp
 
 # How I do stack up
  
-After evaluation you will find my toolset, whether software or soft skills full and environment rich.
-As a relatively young programmer easily tweak able and optimized for build and learning. With a growth mind set can be said my configuration is easily scriptable and new skills deployed.
+After evaluation you will find my toolset, whether software, hardware or soft skills full and environment rich.
+As a relatively young programmer I can easily be tweaked, taught ablized and optimized for building and learning. With a growth mind set can be said my configuration is easily scriptable and new skills deployed.
 Principled and passionate I will be an awesome app, especially with a footing in an environment that is BaseCamp. Basecamp isformative and foundational software, chisels, and organizes organizations? I love how it leverages, unifies tasks and team members alike. I would like to be apart of this lean green truth making machine!
 
 
