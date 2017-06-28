@@ -1,6 +1,6 @@
 ---
 layout: post
-title: My Basecamp App
+title: My Job Application
 ---
 
 ![appidea](/img/app1.png){:class="app-box"}
